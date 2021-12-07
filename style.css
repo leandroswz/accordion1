@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Coiny&family=Fredoka+One&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Coiny&family=Fredoka+One&family=Kavoon&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Coiny&family=Erica+One&family=Fredoka+One&family=Kavoon&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: verdana;
+}
+.fotologo{
+    width: 100%;
+
+}
+.nav1{
+    width: 100%;
+    
+}
+.textoh5{
+    color:rgb(247, 252, 253);
+    font-size:40px;
+    padding-left: 2px; 
+    letter-spacing: 20px; 
+    font-family: Rajdhani;
+    background-color: rgb(71, 73, 75) ;
+    width: 20%;
+    
+
+    
+}
+span{
+    color:rgb(71, 73, 75);
+    letter-spacing: 20px;
+    background-color: white;
+    width: 50%;
+}
+h1{
+    text-align: center;
+    padding: 18px 18px;
+    color: gray;
+    font-size: 20px;
+    font-family: 'Coiny', cursive;
+}
+.forms{
+    text-align: right;
+    margin: 12px 16px 0px 0px;
+    background-color: black;
+    width: 100%;
+    margin-top: -8px;
+    padding-bottom: 9px;
+    padding-top: 1px;
+
+}
+
+h3{
+    padding: 20px;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+.h5{
+    margin: 8px 33px 5px;
+    color: white;
+    
+    
+
+}
+p{
+    color:black;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+.paragrafo1{
+    font-size:20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-family: 'Rajdhani', sans-serif;
+    color:black;
+}
+.paragrafo2{
+    padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    color:black;
+}
+.frametexto{
+    text-align: center; 
+    width: 35%;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family: verdana;
+    font-size: 50px;
+    
+    margin-top: 30px;
+}
+.texto{
+    text-align: center;
+}
+.imagemmeio{
+    text-align: center;
+}
+.conteudos{
+    display: grid;
+    gap:  0.5em;
+    background-color: rgba(30, 146, 150, 0.507);
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.paragrafo{
+    padding: 8px;
+}
+.frame{
+    text-align: center;
+}
+.framework{
+    text-align: center;
+    font-family: verdana;
+}
+.frametexto:hover{
+    background-color: rgb(21, 75, 75);
+
+}
+.footer{
+    
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 20px;
+    width: 97%;
+}
+.pfooter{
+    color:white;
+}
+nav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    
+}
+nav .menu{
+    color:white;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+}
+nav a{
+    color:white;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+nav a:hover{
+    background-color: rgba(2, 219, 248, 0.411);
+    color:black;
+    transition: 0.5s;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+
+
+.none {
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
+
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+}
+
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+
+ div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.accordion_div {
+    margin: 40px 0px 40px 0px;
+}
+
